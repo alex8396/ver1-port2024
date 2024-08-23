@@ -72,162 +72,16 @@ const Section_06 = () => {
               </ul>
             </div>
             <div className="section6p5_button_cont">
-              <a href="https://github.com/kimsangjunv1/-React-Pick-Music-Player">
+              <a href="https://github.com/alex8396/weatherjockey">
                 깃허브
               </a>
-              <a href="https://react-pick.netlify.app/">미리보기</a>
-              <a href="https://www.figma.com/file/0Fads8hi4HV4RtXV94SAUz/%EB%AE%A4%EC%A7%81%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-PiCK?type=design&node-id=0%3A1&mode=design&t=0QdSkNiRWmYy96Y9-1">
-                피그마
-              </a>
+              
+              
             </div>
           </div>
         </div>
-        <div className="site_type">
-          <img
-            className="screenshot s5p5_4"
-            src={section5p5_screenshot_02}
-            alt=""
-          />
-          <div className="site_type_02_desc">
-            <h2>PlayGround</h2>
-            <div className="project_type">
-              <span>개인 프로젝트</span>
-              {/* <span>담당 : 디자인 100% / 프론트 100% / 퍼블리싱 100%</span> */}
-            </div>
-            {/* <p>
-              <strong>
-                기존 유튜브를 재디자인 후 드랍박스의 기능을 추가한 <br />
-                웹사이트 'PlayGround' 입니다,
-              </strong>
-            </p> */}
-            <div className="info_container">
-              <ul>
-                <li>
-                  <ul>
-                    <li>설명</li>
-                    <li>
-                      기존 유튜브를 재디자인 후 드랍박스의 기능을 추가한 <br />
-                      웹사이트 'PlayGround' 입니다,
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <ul>
-                    <li>문제</li>
-                    <li>
-                      원하는 영상을 드랍박스구역에 드래그&드롭 하여 저장하다보니
-                      이미 똑같은 영상이 존재함에도 또 다시 담기는 문제와
-                      박스에서 삭제시 같이 삭제되는 문제가 발생하였습니다.
-                      <br />
-                      그래서 저장되어있는 정보를 map을 통해 각 비디오 id 값을
-                      담은 변수에 includes를 통해 지금 넣으려는 비디오의 id가
-                      없을 경우에만 저장되도록 하여 해결하였습니다.
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <ul>
-                    <li>참여도</li>
-                    <li>디자인 100% / 프론트 100% / 퍼블리싱 100%</li>
-                  </ul>
-                </li>
-                <li>
-                  <ul>
-                    <li>기술스택</li>
-                    <li>React,Zustand</li>
-                  </ul>
-                </li>
-                <li>
-                  <ul>
-                    <li>API</li>
-                    <li>유튜브</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div className="section6p5_button_cont">
-              <a href="https://github.com/kimsangjunv1/-React-Playground">
-                깃허브
-              </a>
-              <a href="https://playground-r.netlify.app/">미리보기</a>
-              <a href="https://www.figma.com/file/Za2MM7db7OKZtiBJ1EeEaV/%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%A6%AC%EB%94%94%EC%9E%90%EC%9D%B8?type=design&node-id=0%3A1&mode=design&t=HqaYZ3hMuFVMborN-1">
-                피그마
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="site_type">
-          <img
-            className="screenshot s5p5_7"
-            src={section5p5_screenshot_03}
-            alt=""
-          />
-          <div className="site_type_03_desc">
-            <h2>꾸다</h2>
-            <div className="project_type">
-              <span>팀 프로젝트</span>
-              {/* <span>담당 : 디자인 80% / 프론트 60% / 퍼블리싱 50%</span> */}
-            </div>
-            <div className="info_container">
-              <ul>
-                <li>
-                  <ul>
-                    <li>설명</li>
-                    <li>
-                      본인이 꾸며보고 싶었던 다이어리를 간단하게 꾸며 보고
-                      <br />
-                      사용자들끼리 내용도 공유할 수 있도록 만든 웹사이트 '꾸다'
-                      입니다.
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <ul>
-                    <li>문제</li>
-                    <li>
-                      스티커가 되는 이미지를 다이어리 바깥에도 두기가능한 문제가
-                      있었습니다,
-                      <br />
-                      해당 문제를 해결하기 위해 getBoundingClientRect를 사용하여
-                      다이어리와 스티커의 위치를 구한뒤 top,right,left,bottom 값
-                      비교 후 위치가 겹치지 않는다면 원래의 컨테이너에 append
-                      하는 방식으로 해결하였습니다.
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <ul>
-                    <li>참여도</li>
-                    <li>디자인 80% / 프론트 60% / 퍼블리싱 50%</li>
-                  </ul>
-                </li>
-                <li>
-                  <ul>
-                    <li>기술스택</li>
-                    <li>PHP, MySQL</li>
-                  </ul>
-                </li>
-                <li>
-                  <ul>
-                    <li>API</li>
-                    <li>야후 날씨, 샤잠 뮤직</li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div className="section6p5_button_cont">
-              <a href="https://github.com/kimsangjunv1/-PHP-GGUDA-Diary">
-                깃허브
-              </a>
-              <a href="http://vvv0032.dothome.co.kr/Diary/PHP/main/main.php">
-                미리보기(수정중)
-              </a>
-              <a href="https://www.figma.com/file/KdrJpICIDBY9p4jC4JPKdR/%EA%BE%B8%EB%8B%A4?type=design&node-id=0%3A1&mode=design&t=nyyCWOsBoKNP0kgm-1">
-                피그마
-              </a>
-            </div>
-          </div>
-        </div>
+        
+        
       </div>
       <div className="ball_cont">
         <div className="ball ball_1 ir">ball</div>
